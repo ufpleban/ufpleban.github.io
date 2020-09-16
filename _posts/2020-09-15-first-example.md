@@ -1,7 +1,6 @@
 # First Example Blog Post 
 
-1\. TOC
-
+1. TOC
 {:toc}
 
 This is a simple test for *blogging on github via github pages*. The first thing we should have seen was the table of contents.
@@ -27,19 +26,14 @@ Another Example – saved to clipboard again
 Here is a bulleted list:
 
 -   First bullet
-
 -   Kugel 2
-
 -   Last but not least
 
 A numbered list:
 
 1.  Un
-
 2.  Deux
-
 3.  Trois
-
 4.  Quatre
 
 ## Some Code
@@ -48,17 +42,17 @@ What happens if the font is switched to Courier New? Nothing – for printing te
 
 Program foo
 
-Proc bar
+    Proc bar
 
-. . .
+    . . .
 
-End Proc
+    End Proc
 
 End Program
 
 And back to our regularly scheduled font. This is the shell command that needs to be executed to convert the Word document to a markdown file.
 
-/usr/local/bin/pandoc -o 2020-09-15-first-example.md --extract-media=2020-09-15-first-example/ 2020-09-15-first-example.docx -w gfm --atx-headers --columns 9999
+    /usr/local/bin/pandoc -o 2020-09-15-first-example.md --extract-media=2020-09-15-first-example/ 2020-09-15-first-example.docx -w gfm --atx-headers --columns 9999
 
 ## Tables
 
